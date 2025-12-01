@@ -1,0 +1,136 @@
+# ZYX.github.io-
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周深 - 天籁之音</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .shock {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .photo-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        .photo-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .info-section {
+            flex: 2;
+            min-width: 300px;
+        }
+        .info-section h2 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .info-section p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .achievements {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+        .achievements h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .achievement-list {
+            list-style: none;
+        }
+        .achievement-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #666;
+            background: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="shock">我靠 这是谁啊 太帅了</div>
+        <h1>周深 - 实力与颜值并存的天籁歌者</h1>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <div class="photo-section">
+                < img src="https://p1.ssl.qhimg.com/t01633e19923cc07111.jpg" alt="周深写真照">
+                < img src="https://p0.ssl.qhimg.com/t01633b1f539943738a.jpg" alt="周深舞台表演照" style="margin-top: 1rem;">
+                < img src="https://p2.ssl.qhimg.com/t016a037335d11d259a.jpg" alt="周深综艺录制照" style="margin-top: 1rem;">
+            </div>
+            <div class="info-section">
+                <h2>个人资料</h2>
+                <p><strong>姓名</strong>：周深</p >
+                <p><strong>出生日期</strong>：1992年9月29日</p >
+                <p><strong>出生地</strong>：贵州省贵阳市</p >
+                <p><strong>职业</strong>：歌手、音乐人</p >
+                <p><strong>毕业院校</strong>：乌克兰利沃夫国立音乐学院，主修美声</p >
+                <p><strong>代表作品</strong>：《大鱼》《花开忘忧》《小美满》《可它爱着这个世界》《触不可及》等</p >
+                <p><strong>音乐风格</strong>：横跨美声、流行、古风等多个领域，嗓音独特，音域宽广，兼具细腻与爆发力，被称为“天籁之音”。</p >
+                <p>周深凭借出众的歌唱实力和谦逊可爱的性格收获了众多粉丝喜爱，不仅在音乐领域屡获佳绩，还活跃于各大综艺节目，展现了多面的个人魅力。</p >
+            </div>
+        </div>
+        <div class="achievements">
+            <h2>主要成就</h2>
+            <ul class="achievement-list">
+                <li>多次斩获音乐奖项，包括全球华语歌曲排行榜最佳男歌手、东方风云榜最佳男歌手等</li>
+                <li>演唱多首热门影视剧OST，传唱度极高，《大鱼》更是成为现象级作品</li>
+                <li>参与《歌手·当打之年》《创造营2021》等热门综艺，人气持续飙升</li>
+                <li>举办多场个人巡回演唱会，场场爆满，口碑极佳</li>
+                <li>积极参与公益活动，用音乐传递温暖，展现艺人担当</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 周深粉丝专属网页 | 永远支持深深的天籁之音</p >
+    </div>
+</body>
+</html>
